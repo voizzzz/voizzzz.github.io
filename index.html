@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=Lusitana|Nixie+One|Yeseva+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="favicon.ico" />
+
+	<title>VoizDesign</title>
+</head>
+
+<body data-spy="scroll" data-target="#nav1">
+<nav class="navbar navbar-inverse navbar-fixed-top" id="nav1" role="navigation">
+  <div class="container-fluid">
+      <ul id="menu" class="nav navbar-nav">
+        <li class="active"><a href="#home" title="Home"><span class="glyphicon glyphicon-home"></span> <span class="hidden-xs">Home</span></a></li>
+        <li><a href="#about" title="About"><span class="glyphicon glyphicon-user"></span> <span class="hidden-xs">About</span></a></li>
+        <li><a href="#gallery" title="Gallery"><span class="glyphicon glyphicon-film"></span> <span class="hidden-xs">Gallery</span></a></li>
+        <li><a href="#contact" title="Contact"><span class="glyphicon glyphicon-envelope"></span> <span class="hidden-xs">Contact</span></a></li>
+      </ul>
+      <ul id="lang" class="nav navbar-nav navbar-right hidden-xs">
+         <li><a href="index.html"><img class="img img-circle img-responsive " src="img/ukflag.png" alt="English"></a></li>
+         <li><a href="gr.html"><img class="img img-circle img-responsive " src="img/greekflag.png" alt="Greek"></a></li>
+      </ul>
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="home" class="row">
+  <div class="jumbotron">
+  	<div class="container">
+  		<h1>VoizDesign</h1>
+  		<h2>Freelance Web Developer</h2>
+  	</div>
+  </div>
+  <div id="description"  class="container">
+  	<div class="row">
+  		<div class="col-md-4">
+  			<h1>Responsive Design</h1>
+  			<p>Today, most users have access to all kinds of devices like desktops, smartphones and tablets. Responsive Web Design offers an optimal viewing experience, adjusting the web site through css grids and media queries. Now, wherever you watch your site, it looks beautiful!</p>
+  		</div>
+  		<div class="col-md-4">
+  			<h1>CMS</h1>
+  			<p>CMS (Content Management System) like Wordpress have gained a massive following recently. If you need to continuously add new content to your website then that's what you want!</p>
+  		</div>
+  		<div class="col-md-4">
+  			<h1>Minimalism</h1>
+  			<p>Sites today need to be simple, concise and elegant. According to research, consumers do not want overload of information, rather a clean interface that conveys the website's message and spirit.</p>
+  		</div>
+  	</div>
+  </div>
+</div>
+
+<div id="about" class="row">
+  <div class="container-fluid">
+  <h1>About</h1>
+  <p class="col-sm-12">I am a freelance web developer and designer. I have graduated from the Electrical and Computer Engineering University of Patras. I have a passion for creating beautiful, elegant websites and applications. I use tools like HTML, CSS, Javascript, Jquery, PHP, Bootstrap and Wordpress.</p>
+  </div>
+</div>
+
+<div id="gallery" class="row">
+  <h1>Gallery</h1>
+  <div class="row">
+    <div class=" col-md-3 col-sm-4 col-xs-12" >
+      <a href="http://www.provoles.net"><img src="img/provoles.png" alt="www.provoles.net" class="img img-responsive img-rounded"></a>
+      <p class="hidden-xs">www.provoles.net</p>
+    </div>
+    <div class=" col-md-3 col-sm-4 hidden-xs no-img-yet">
+      <a href="#"><img src="http://www.transparenttextures.com/patterns/brushed-alum.png" alt="" class="img img-responsive img-rounded"></a>
+      <p>Coming Soon..</p>
+    </div>
+    <div class=" col-md-3 col-sm-4 hidden-xs no-img-yet">
+      <a href="#"><img src="http://www.transparenttextures.com/patterns/brushed-alum.png" alt="" class="img img-responsive img-rounded"></a>
+      <p>Coming Soon..</p>
+    </div>
+    <div class=" col-md-3 col-sm-4 hidden-xs no-img-yet">
+      <a href="#"><img src="http://www.transparenttextures.com/patterns/brushed-alum.png" alt="" class="img img-responsive img-rounded"></a>
+      <p>Coming Soon..</p>
+    </div>
+  </div><br><br><br>
+
+  <div class="row">
+    <div class=" col-md-3 col-sm-4 hidden-xs no-img-yet">
+      <a href="#"><img src="http://www.transparenttextures.com/patterns/brushed-alum.png" alt="" class="img img-responsive img-rounded"></a>
+      <p>Coming Soon..</p>
+    </div>
+    <div class=" col-md-3 col-sm-4 hidden-xs no-img-yet">
+      <a href="#"><img src="http://www.transparenttextures.com/patterns/brushed-alum.png" alt="" class="img img-responsive img-rounded"></a>
+      <p>Coming Soon..</p>
+    </div>
+  </div>
+</div>
+
+<div class="row" id="contact">
+  <h1>Contact</h1>
+  <div id="form-id">
+  <form class="form-horizontal" role="form" method="post" name="contact_form" action="contact-form-handler.php">
+    <div class="form-group">
+      Your Name: 
+      <input class="form-control input-lg" type="text" name="name">
+    </div>
+    <div class="form-group">
+      Email Address:
+      <input class="form-control input-lg" type="text" name="email">
+    </div>
+    <div class="form-group">
+      Message:
+      <textarea class="form-control input-lg resizeable" rows="4" name="message"></textarea>
+    </div>
+      <button id="submit-button" class="btn btn-success btn-lg" type="submit" onclick=>Submit</button>
+  </form>
+  </div>
+</div>
+<div class="row" id="footer">
+  <p>&#169; 2014 - VoizDesign</p>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('#menu').onePageNav({
+    currentClass: 'current',
+    changeHash: true,
+    scrollSpeed: 550,
+    scrollThreshold: 0.5,
+    filter: '',
+    easing: 'swing',
+    begin: function() {
+        //I get fired when the animation is starting
+    },
+    end: function() {
+        //I get fired when the animation is ending
+    },
+    scrollChange: function($currentListItem) {
+        //I get fired when you enter a section and I pass the list item of the section
+    }
+});
+  });
+</script>
+
+
+
+
+</body>
+</html>
+
+
+<!-- <script src="js/jquery.nav.js"></script>
+
+
+<script>
+  $(document).ready(function(){
+    $('#nav').onePageNav();
+});
+</script> -->
