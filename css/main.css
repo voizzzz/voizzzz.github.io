@@ -20,14 +20,13 @@ padding:0;
 	margin:0;
 	padding:0;
 }
-
 /*---------------------Header Menu----------------------*/
 #nav1{
 /*	position:fixed;
 	width:100%;*/
 	border:none;
-	background-color: #00505c;
-	background-image: url("../img/45-degree-fabric-dark.png");
+	background-color: #fff;
+	/*background-image: url("../img/45-degree-fabric-dark.png");*/
 	/*margin-bottom:3em;*/
 	margin-bottom: 0;
 	/*border-bottom:1px solid black;*/
@@ -54,6 +53,7 @@ padding:0;
 	background:none;
 	transition:1s all;
 }
+.
 #menu li:hover a{
 	/*color:#B2A009;*/
 	background:#003740;
