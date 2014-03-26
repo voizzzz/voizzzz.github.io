@@ -1,1 +1,294 @@
-#about{margin:0;min-height:900px;padding:0 6%;width:100%;background:#09AF84;color:#fff}#about h1,#contact h1,#gallery h1{font-family:Lusitana,Verdana,sans-serif;font-size:7em;padding-top:100px;margin-bottom:.7em;margin-top:0;letter-spacing:7px}#about p{font-family:'Nixie One',Verdana,sans-serif;font-size:40px;margin-bottom:50px;text-align:justify}#gallery{display:block;background-color:#fff;background-image:url(../img/lined-paper-2.png);min-height:900px;padding:0 6%}#gallery h1{color:#09AF84}#gallery img{margin-bottom:20px;border:1px solid #aaa;box-shadow:0 0 1px #bbb}#gallery p{text-align:center;font-family:Lusitana,Verdana,sans-serif;font-size:30px;color:#666}#gallery #soon{font-size:40px}#contact{min-height:850px;padding:0 6%;font-family:Lusitana,Verdana,sans-serif;border-top:1px solid #ccc}#contact h1{color:#09AF84;margin-bottom:100px}#contact h2{word-spacing:20px;color:#09AF84;font-size:40px}#contact span{color:#333}#contact a{text-decoration:none;color:#333}#contact a:hover{color:#09af84}#footer{background:#333;min-height:50px;font-family:'Nixie One',Verdana,sans-serif}#footer p{float:right;padding-right:70px;margin:30px auto;font-size:30px;color:#fff;text-shadow:1px 0 0}#footer a{color:#09AF84;font-style:underline}@media screen and (max-width:1200px){.jumbotron h1{font-size:7em}.jumbotron h2{font-size:4em}}@media screen and (max-width:768px){#about h1,#contact h1,#gallery h1{font-size:80px}#contact h2{font-size:35px}}
+*::-moz-selection{
+	color:white;
+	background:#09AF84;
+}
+body{
+background-color: #fffcfc;
+margin:0;
+padding:0;
+}
+.row{
+	margin:0;
+	padding:0;
+}
+.container-fluid{
+	margin:0;
+	padding:0;
+}
+/*---------------------Header Menu----------------------*/
+#nav1{
+	margin-bottom: 0;
+	border-bottom:1px solid #ddd;
+	border-radius: 0;	
+	height:55px;
+}
+.navbar-default{
+	background:white;
+	box-shadow: none;
+}
+#menu{
+	width:auto;
+}
+#menu li{
+	height:auto;
+}
+#menu > .active > a{
+		background:#09AF84;
+}
+#menu .active span{
+	color:#fff;
+}
+#menu li a {
+	font-family: 'Lusitana', Verdana, sans-serif;
+	font-size: 1.4em;
+	color:#888;
+	letter-spacing: 2px;
+	transition:1s all;
+
+}
+#menu li:hover a{
+	color:#444;
+}
+#menu li span{
+	padding-right:0.75em;
+}
+.glyphicon{
+	color:#ddd;
+	font-size:1.1em;
+	text-align:center;
+	margin:0;
+
+}
+
+#lang{
+	margin-right:20px;
+}
+#lang li{
+	max-width:50px;
+}
+/*---------------------Home----------------------*/
+.jumbotron{
+	padding:4% 0;
+	min-height:350px;
+	background-image: url("../img/batthern.png");
+	border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.jumbotron h1{
+	text-align: center;
+	font-family:'Yeseva One', Trebuchet, serif;
+	font-size: 6em;
+	color:#145;
+	text-shadow:0px 1px 0px #888;	
+	padding-top:0.1em;
+	padding-bottom:0.3em;
+	border-bottom: 1px solid #444;
+	color:#444;
+}
+.jumbotron h2{
+	text-align: center;
+	font-family:'Nixie One', Times, monospace;
+	font-size: 5em;
+	color:#333;
+	text-shadow:0px 1px 0px #888;	
+}
+#home{
+	min-height:900px;
+}
+#description{
+	font-family:'Lusitana', Verdana, sans-serif;
+	padding:0 5em;
+	padding-top:3em;	
+	text-align: justify;
+	margin-bottom: 5em;
+}
+#description h1{
+	font-family:'Lusitana', Verdana, sans-serif;
+	font-size:2.6em;
+	margin-bottom:0.5em;
+	color:#09AF84;
+	
+}
+#description p{
+	color:#666;
+	font-size: 1.35em;
+	letter-spacing:0;
+	line-height:1.5em;
+}
+/*---------------------About----------------------*/
+#about{
+	margin:0;
+	padding:0;
+	min-height:900px;
+	padding:0 6%;
+	width:100%;
+	background: #09AF84;
+	color:#fff;
+}
+#about h1, #gallery h1, #contact h1 {
+	font-family:'Lusitana', Verdana, sans-serif;
+	font-size:7em;
+	padding-top:100px;
+	margin-bottom: 0.7em;
+	margin-top:0;
+	letter-spacing:7px;
+
+}
+#about p{
+	font-family:'Nixie One', Verdana, sans-serif;
+	font-size:40px;
+	margin-bottom:50px;
+	text-align: justify;
+}
+/*---------------------Gallery----------------------*/
+#gallery{
+	display:block;
+	background-color: #ffffff;
+	background-image: url("../img/lined-paper-2.png");
+	min-height:900px;
+	padding:0 6%;
+}
+#gallery h1{
+	color:#09AF84;
+}
+#gallery img{
+	margin-bottom:20px;
+	border:1px solid #aaa;
+	box-shadow:0px 0px 1px #bbb;
+}
+#gallery p{
+	text-align: center;
+	font-family:'Lusitana', Verdana, sans-serif;
+	font-size:30px;
+	color:#666;
+}
+#gallery #soon{
+	font-size: 40px;
+}
+/*--------------------Contact----------------------*/
+#contact{
+	min-height:850px;
+	padding:0 6%;
+	font-family:'Lusitana', Verdana, sans-serif;
+	border-top: 1px solid #ccc;
+}
+#contact h1{
+	color:#09AF84;
+	margin-bottom:100px;
+}
+#contact h2{
+	word-spacing: 20px;
+	color:#09AF84;
+	font-size:40px;
+}
+#contact span{
+	color:#333;
+}
+#contact a{
+	text-decoration: none;
+	color:#333;
+}
+#contact a:hover{
+	color:#09af84;
+}
+/*--------------------Footer----------------------*/
+#footer{
+	background:#333;
+	min-height:50px;
+	font-family:'Nixie One', Verdana, sans-serif;
+}
+#footer p{
+	float:right;
+	padding-right:70px;
+	margin:30px auto;
+	font-size:30px;
+	color:#fff;
+	text-shadow:1px 0px 0px;
+}
+#footer a{
+	color:#09AF84;
+	font-style: underline;
+}
+/*-----------------Adding Media Rules-------------------*/
+
+@media screen and (max-width: 1200px) {
+		.jumbotron h1{
+			font-size: 7em;
+		}
+		.jumbotron h2{
+			font-size:4em;
+		}
+    #description{
+    	text-align: left;
+    }
+    #description h1{
+    	font-size:50px;
+    }
+    #description p{
+    	font-size:30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .jumbotron h1 {
+			/*font-size:4.4em;*/
+			padding-top:0.6em;
+			border:none;
+			font-size:6em;
+    }
+    .jumbotron h2 {
+			display:none;
+    }
+    .jumbotron {
+    	min-height:100px;
+    }
+    #menu li{
+			position:relative;
+			float:left;
+			text-align: center;
+			width:25%;
+    }
+  	#menu > .active > a{
+    	background:none;
+    	box-shadow:none;
+    }
+    #menu .active span{
+    	color:#09AF84;
+    }
+
+    #about p{
+    	font-size:30px;
+    }
+    #description p{
+			font-size:25px;
+		}
+    #description h1,p, #about h1, #gallery h1, #contact h1{
+    	text-align: center;
+    }
+    #about h1, #gallery h1, #contact h1{
+    	font-size:80px;
+    }
+    #description h1{
+    	font-size:60px;
+    }
+		#contact h2{
+			font-size:35px;
+		}
+
+}
+
+@media screen and (max-width: 425px) {
+    .jumbotron h1 {
+			font-size:3em;
+			padding-top:0.6em;
+			border:none;
+    }
+    .jumbotron h2 {
+			font-size:2em;
+			display:none;
+    }
+    .jumbotron {
+    	min-height:100px;
+    }
+    #description h1{
+			font-size:30px;
+    }
+}
