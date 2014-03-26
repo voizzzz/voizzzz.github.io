@@ -61,10 +61,10 @@ padding:0;
 }
 
 #lang{
-	margin-right:20px;
+	margin-right:1.25em;
 }
 #lang li{
-	max-width:50px;
+	max-width:3.125em;
 }
 /*---------------------Home----------------------*/
 .jumbotron{
@@ -135,8 +135,8 @@ padding:0;
 }
 #about p{
 	font-family:'Nixie One', Verdana, sans-serif;
-	font-size:40px;
-	margin-bottom:50px;
+	font-size:2.5em;
+	margin-bottom:3.125em;
 	text-align: justify;
 }
 /*---------------------Gallery----------------------*/
@@ -158,11 +158,11 @@ padding:0;
 #gallery p{
 	text-align: center;
 	font-family:'Lusitana', Verdana, sans-serif;
-	font-size:30px;
+	font-size:1.875em;
 	color:#666;
 }
 #gallery #soon{
-	font-size: 40px;
+	font-size: 2.5em;
 }
 /*--------------------Contact----------------------*/
 #contact{
@@ -178,7 +178,7 @@ padding:0;
 #contact h2{
 	word-spacing: 20px;
 	color:#09AF84;
-	font-size:40px;
+	font-size:2.5em;
 }
 #contact span{
 	color:#333;
@@ -200,7 +200,7 @@ padding:0;
 	float:right;
 	padding-right:70px;
 	margin:30px auto;
-	font-size:30px;
+	font-size:1.875em;
 	color:#fff;
 	text-shadow:1px 0px 0px;
 }
@@ -221,10 +221,10 @@ padding:0;
     	text-align: left;
     }
     #description h1{
-    	font-size:50px;
+    	font-size:3.125em;
     }
     #description p{
-    	font-size:30px;
+    	font-size:1.875em;
     }
 }
 @media screen and (max-width: 768px) {
@@ -232,7 +232,7 @@ padding:0;
 			/*font-size:4.4em;*/
 			padding-top:0.6em;
 			border:none;
-			font-size:6em;
+			font-size:5.2em;
     }
     .jumbotron h2 {
 			display:none;
@@ -253,32 +253,39 @@ padding:0;
     #menu .active span{
     	color:#09AF84;
     }
-
+		#about{
+			padding:0.5em;
+		}
     #about p{
-    	font-size:30px;
+    	font-size:1.875em;
     }
     #description p{
-			font-size:25px;
+			font-size:1.563em;
 		}
     #description h1,p, #about h1, #gallery h1, #contact h1{
-    	text-align: center;
+    	text-align: left;
     }
     #about h1, #gallery h1, #contact h1{
-    	font-size:80px;
+    	font-size:5em;
+    	padding-left:0.2em;
     }
     #description h1{
-    	font-size:60px;
+    	font-size:3.75em;
+    }
+    #description{
+    	padding:0em;
     }
 		#contact h2{
-			font-size:35px;
+			font-size:2.188em;
 		}
+
 
 }
 
 @media screen and (max-width: 425px) {
     .jumbotron h1 {
 			font-size:3em;
-			padding-top:0.6em;
+			padding-top:1.2em;
 			border:none;
     }
     .jumbotron h2 {
@@ -288,7 +295,17 @@ padding:0;
     .jumbotron {
     	min-height:100px;
     }
-    #description h1{
-			font-size:30px;
+    #description {
+    	padding:0 10px;
+    	margin:0;
     }
+    #description h1{
+			font-size:1.875em;
+    }
+		#about p{
+			font-size:1.5em;
+		}
+		#about h1, #gallery h1, #contact h1{
+			letter-spacing: 1px;
+		}
 }
