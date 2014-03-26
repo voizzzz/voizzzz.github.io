@@ -1,283 +1,31 @@
-*::-moz-selection{
-	color:white;
-	background:#09AF84;
-}
-body{
-background-color: #fffcfc;
-margin:0;
-padding:0;
-}
-.row{
-	margin:0;
-	padding:0;
-}
-.container-fluid{
-	margin:0;
-	padding:0;
-}
+
 /*---------------------Header Menu----------------------*/
-#nav1{
-	margin-bottom: 0;
-	border-bottom:1px solid #ddd;
-	border-radius: 0;	
-	height:55px;
-}
-.navbar-default{
-	background:white;
-	box-shadow: none;
-}
-#menu{
-	width:auto;
-}
-#menu li{
-	height:auto;
-}
-#menu > .active > a{
-		background:#09AF84;
-}
-#menu .active span{
-	color:#fff;
-}
 #menu li a {
-	font-family:Georgia;
-	font-size: 1.4em;
-	color:#888;
-	letter-spacing: 2px;
-	transition:1s all;
-
-}
-#menu li:hover a{
-	color:#444;
-}
-#menu li span{
-	padding-right:0.75em;
-}
-.glyphicon{
-	color:#ddd;
-	font-size:1.1em;
-	text-align:center;
-	margin:0;
-
-}
-
-#lang{
-	margin-right:20px;
-}
-#lang li{
-	max-width:50px;
+	font-family:'Georgia', serif;
 }
 /*---------------------Home----------------------*/
-.jumbotron{
-	padding:4% 0;
-	min-height:350px;
-	background-image: url("../img/batthern.png");
-	border-bottom:1px solid rgba(0,0,0,0.1);
-}
-.jumbotron h1{
-	text-align: center;
-	font-family:'Yeseva One', Trebuchet, serif;
-	font-size: 6em;
-	color:#145;
-	text-shadow:0px 1px 0px #888;	
-	padding-top:0.1em;
-	padding-bottom:0.3em;
-	border-bottom: 1px solid #444;
-	color:#444;
-}
-.jumbotron h2{
-	text-align: center;
-	font-family:'Nixie One', Times, monospace;
-	font-size: 5em;
-	color:#333;
-	text-shadow:0px 1px 0px #888;	
-}
-#home{
-	min-height:900px;
-}
 #description{
-	font-family:Georgia;
-	padding:0 5em;
-	padding-top:3em;	
-	text-align: justify;
-	margin-bottom: 5em;
+	font-family:'Georgia', serif;
 }
 #description h1{
-	font-family:Georgia;
-	font-size:2.6em;
-	margin-bottom:0.5em;
-	color:#09AF84;
-	
-}
-#description p{
-	color:#666;
-	font-size: 1.35em;
-	letter-spacing:0;
-	line-height:1.5em;
+	font-family:'Georgia', serif;
 }
 /*---------------------About----------------------*/
-#about{
-	margin:0;
-	padding:0;
-	min-height:900px;
-	padding:0 6%;
-	width:100%;
-
-	background: #09AF84;
-	color:#fff;
-}
 #about h1, #gallery h1, #contact h1 {
-	font-family:Georgia;
-	font-size:7em;
-	padding-top:100px;
-	margin-bottom: 0.7em;
-	margin-top:0;
-	letter-spacing:7px;
-
+	font-family:'Georgia', serif;
 }
 #about p{
-	font-family:Georgia;
-	font-size:40px;
-	margin-bottom:50px;
-	text-align: justify;
+	font-family:'Georgia', serif;
 }
 /*---------------------Gallery----------------------*/
-#gallery{
-	display:block;
-	background-color: #ffffff;
-	background-image: url("../img/lined-paper-2.png");
-	min-height:900px;
-	padding:0 6%;
-}
-#gallery h1{
-	color:#09AF84;
-}
-#gallery img{
-	margin-bottom:20px;
-	border:1px solid #aaa;
-	box-shadow:0px 0px 1px #bbb;
-}
 #gallery p{
-	text-align: center;
-	font-family:Georgia;
-	font-size:20px;
-	color:#666;
-}
-#gallery #soon{
-	font-size: 40px;
+	font-family:'Georgia', serif;
 }
 /*--------------------Contact----------------------*/
 #contact{
-	min-height:850px;
-	padding:0 6%;
-	font-family:Georgia;
-	border-top: 1px solid #ccc;
-}
-#contact h1{
-	color:#09AF84;
-	margin-bottom:100px;
-}
-#contact h2{
-	word-spacing: 20px;
-	color:#09AF84;
-	font-size:40px;
-}
-#contact span{
-	color:#333;
-}
-#contact a{
-	text-decoration: none;
-	color:#333;
-}
-#contact a:hover{
-	color:#09af84;
+	font-family:'Georgia', serif;
 }
 /*--------------------Footer----------------------*/
 #footer{
-	background:#333;
-	min-height:50px;
-	font-family:Georgia;
-}
-#footer p{
-	float:right;
-	padding-right:70px;
-	margin:30px auto;
-	font-size:20px;
-	color:#09AF84;
-	text-shadow:1px 0px 0px;
-}
-#footer a{
-	color:#09AF84;
-	font-style: underline;
-}
-/*-----------------Adding Media Rules-------------------*/
-
-@media screen and (max-width: 1200px) {
-    #description{
-    	text-align: left;
-    }	
-}
-@media screen and (max-width: 768px) {
-    .jumbotron h1 {
-			/*font-size:4.4em;*/
-			padding-top:0.6em;
-			border:none;
-			font-size:6em;
-    }
-    .jumbotron h2 {
-			display:none;
-    }
-    .jumbotron {
-    	min-height:100px;
-    }
-    #menu li{
-			position:relative;
-			float:left;
-			text-align: center;
-			width:25%;
-    }
-  	#menu > .active > a{
-    	background:none;
-    	box-shadow:none;
-    }
-    #menu .active span{
-    	color:#09AF84;
-    }
-
-    #about p{
-    	font-size:30px;
-    }
-    #description p{
-			font-size:25px;
-		}
-    #description h1,p, #about h1, #gallery h1, #contact h1{
-    	text-align: center;
-    }
-    #about h1, #gallery h1, #contact h1{
-    	font-size:80px;
-    }
-    #description h1{
-    	font-size:60px;
-    }
-		#contact h2{
-			font-size:35px;
-		}
-
-}
-
-@media screen and (max-width: 425px) {
-    .jumbotron h1 {
-			font-size:3em;
-			padding-top:0.6em;
-			border:none;
-    }
-    .jumbotron h2 {
-			font-size:2em;
-			display:none;
-    }
-    .jumbotron {
-    	min-height:100px;
-    }
-    #description h1{
-			font-size:30px;
-    }
+	font-family:'Georgia', serif;
 }
