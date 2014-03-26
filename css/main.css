@@ -163,7 +163,7 @@ padding:0;
 	color:#666;
 }
 #gallery #soon{
-	font-size: 60px
+	font-size: 40px;
 }
 /*--------------------Contact----------------------*/
 #contact{
@@ -179,7 +179,7 @@ padding:0;
 #contact h2{
 	word-spacing: 20px;
 	color:#09AF84;
-	font-size:60px;
+	font-size:40px;
 }
 #contact span{
 	color:#333;
@@ -259,7 +259,7 @@ padding:0;
     	font-size:60px;
     }
 		#contact h2{
-			font-size:45px;
+			font-size:35px;
 		}
 
 }
