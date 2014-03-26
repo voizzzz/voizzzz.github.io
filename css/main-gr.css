@@ -1,14 +1,9 @@
 *::-moz-selection{
 	color:white;
-	background:#00505c;
+	background:#09AF84;
 }
 body{
-	/*background-color: #edf2e1;*/
-	/*background-color:#fff;
-	background-image: url("http://www.transparenttextures.com/patterns/black-linen.png");
-*/
 background-color: #fffcfc;
-background-image: url("../img/whitey.png");
 margin:0;
 padding:0;
 }
@@ -20,54 +15,51 @@ padding:0;
 	margin:0;
 	padding:0;
 }
-
 /*---------------------Header Menu----------------------*/
 #nav1{
-/*	position:fixed;
-	width:100%;*/
-	border:none;
-	background-color: #00505c;
-	background-image: url("../img/45-degree-fabric-dark.png");
-	/*margin-bottom:3em;*/
 	margin-bottom: 0;
-	/*border-bottom:1px solid black;*/
-	border-radius: 0
-
+	border-bottom:1px solid #ddd;
+	border-radius: 0;	
+	height:55px;
+}
+.navbar-default{
+	background:white;
+	box-shadow: none;
+}
+#menu{
+	width:auto;
 }
 #menu li{
-	width:auto;
-	/*border-right:1px solid #555;*/
-	font-family: Verdana, sans-serif;
+	height:auto;
 }
 #menu > .active > a{
-	/*background: rgba(44,44,44,0.7);*/
-	background:none;
-	/*box-shadow: 0px 3px 0px #A84A00;*/
-	/*color:#A84A00;*/
-	/*text-shadow:1px 0px 0px #666;*/
+		background:#09AF84;
 }
 #menu .active span{
-	/*color:#A84A00;*/
-	color:orangered;
+	color:#fff;
 }
 #menu li a {
-	background:none;
+	font-family:Georgia;
+	font-size: 1.4em;
+	color:#888;
+	letter-spacing: 2px;
 	transition:1s all;
+
 }
 #menu li:hover a{
-	/*color:#B2A009;*/
-	background:#003740;
+	color:#444;
 }
 #menu li span{
-	margin-right:10px;
+	padding-right:0.75em;
 }
 .glyphicon{
 	color:#ddd;
 	font-size:1.1em;
-}
-.glyphicon{
 	text-align:center;
+	margin:0;
+
 }
+
 #lang{
 	margin-right:20px;
 }
@@ -78,15 +70,12 @@ padding:0;
 .jumbotron{
 	padding:4% 0;
 	min-height:350px;
-	/*background-color: #b0a9a2;*/
-	/*background-color: #aaa;*/
-	/*background-image: url("http://www.transparenttextures.com/patterns/black-linen.png");*/
+	background-image: url("../img/batthern.png");
 	border-bottom:1px solid rgba(0,0,0,0.1);
-		/*background:rgba(50,50,50,0.25);*/
 }
 .jumbotron h1{
 	text-align: center;
-	font-family:Yeseva One, Trebuchet, serif;
+	font-family:'Yeseva One', Trebuchet, serif;
 	font-size: 6em;
 	color:#145;
 	text-shadow:0px 1px 0px #888;	
@@ -106,162 +95,171 @@ padding:0;
 	min-height:900px;
 }
 #description{
-	font-family:Verdana, sans-serif;
+	font-family:Georgia;
 	padding:0 5em;
-	/*margin-bottom:15em;*/
 	padding-top:3em;	
+	text-align: justify;
+	margin-bottom: 5em;
 }
 #description h1{
-	font-family:'Lusitana', Verdana, sans-serif;
+	font-family:Georgia;
 	font-size:2.6em;
 	margin-bottom:0.5em;
+	color:#09AF84;
+	
 }
 #description p{
-	letter-spacing:1px;
-	line-height:1.7em;
-	margin-bottom: 5em;
+	color:#666;
+	font-size: 1.35em;
+	letter-spacing:0;
+	line-height:1.5em;
 }
 /*---------------------About----------------------*/
 #about{
 	margin:0;
 	padding:0;
 	min-height:900px;
-	color:orangered;
-	background-color: #fffcfc;
-	background-image: url("../img/axiom-pattern.png");
 	padding:0 6%;
 	width:100%;
+
+	background: #09AF84;
+	color:#fff;
 }
 #about h1, #gallery h1, #contact h1 {
-	font-family:'Lusitana', Trebuchet, sans-serif;
+	font-family:Georgia;
 	font-size:7em;
-	padding-top:0.7em;
+	padding-top:100px;
 	margin-bottom: 0.7em;
 	margin-top:0;
-	text-shadow:2px 0px 0px #E8670C;
-	letter-spacing:0px;
-	/*margin-left:60px;*/
+	letter-spacing:7px;
 
 }
 #about p{
-	font-family:Tahoma;
-	font-size:44px;
-	/*margin-left:60px;*/
-
+	font-family:Georgia;
+	font-size:48px;
+	margin-bottom:50px;
 }
 /*---------------------Gallery----------------------*/
 #gallery{
-	/*margin:0;*/
-	background-color: #fffcfc;
-	background-image: url("../img/brushed-alum.png");
+	display:block;
+	background-color: #ffffff;
+	background-image: url("../img/lined-paper-2.png");
 	min-height:900px;
 	padding:0 6%;
 }
 #gallery h1{
-	color:#00505c;
-	text-shadow:2px 0px 0px #00555c;
+	color:#09AF84;
 }
-#gallery+div{
-	margin-bottom: 80px
-}
-
 #gallery img{
-	/*width:400px;*/
-	/*border:1px solid #aaa;*/
 	margin-bottom:20px;
 	border:1px solid #aaa;
-	box-shadow:0px 0px 3px #666;
+	box-shadow:0px 0px 1px #bbb;
 }
 #gallery p{
 	text-align: center;
-	font-family: Verdana, sans-serif;
+	font-family:Georgia;
 	font-size:20px;
+	color:#666;
 }
-#gallery > p:last-child{
-	font-size:50px;
-	margin-top:150px;
-}
-#gallery .no-img-yet{
-	
-}
-#gallery .no-img-yet img{
-	width:100%;
-	height:180px;
-	background-color:rgba(111,111,111,0.2);
+#gallery #soon{
+	font-size: 60px
 }
 /*--------------------Contact----------------------*/
 #contact{
-	min-height:900px;
-	background-color:rgba(0,0,0,0.1);
+	min-height:850px;
 	padding:0 6%;
-	font-family:Verdana, sans-serif;
-
+	font-family:Georgia;
+	border-top: 1px solid #ccc;
 }
 #contact h1{
-	color:#00505c;
-	text-shadow:2px 0px 0px #00555c;
+	color:#09AF84;
+	margin-bottom:100px;
 }
-.form-group{
-	width:500px;
-	font-size:30px;
-	margin-bottom:20px;
-	color:#444;
+#contact h2{
+	word-spacing: 20px;
+	color:#09AF84;
+	font-size:60px;
 }
-.form-group input, .form-group textarea{
-	margin-top:5px;
-	color:#666;
-	font-size:25px;
+#contact span{
+	color:#333;
 }
-.form-group input{
-	height:60px;
+#contact a{
+	text-decoration: none;
+	color:#333;
 }
-#submit-button{
-	margin-left:-15px;
-	width:500px;
-	background:#00505c;
-	border:0;
+#contact a:hover{
+	color:#09af84;
 }
-#submit-button:hover{
-	color:orangered;
-}
+/*--------------------Footer----------------------*/
 #footer{
-	height:50px;
-	font-family:'Nixie One', Verdana, sans-serif;
+	background:#333;
+	min-height:50px;
+	font-family:Georgia;
 }
 #footer p{
 	float:right;
-	margin-right:70px;
-	margin-bottom:20px;
-	font-size:15px;
-	color:#00505c;
+	padding-right:70px;
+	margin:30px auto;
+	font-size:20px;
+	color:#09AF84;
+	text-shadow:1px 0px 0px;
+}
+#footer a{
+	color:#09AF84;
+	font-style: underline;
+}
+/*-----------------Adding Media Rules-------------------*/
+
+@media screen and (max-width: 1200px) {
+    #description{
+    	text-align: left;
+    }	
 }
 @media screen and (max-width: 768px) {
     .jumbotron h1 {
-			font-size:4.4em;
+			/*font-size:4.4em;*/
 			padding-top:0.6em;
+			border:none;
+			font-size:6em;
     }
     .jumbotron h2 {
-			font-size:2.8em;
+			display:none;
     }
     .jumbotron {
     	min-height:100px;
     }
     #menu li{
-			box-shadow:0px 0px 0px black;
 			position:relative;
 			float:left;
 			text-align: center;
 			width:25%;
     }
+  	#menu > .active > a{
+    	background:none;
+    	box-shadow:none;
+    }
+    #menu .active span{
+    	color:#09AF84;
+    }
+
     #about p{
     	font-size:30px;
     }
+    #description p{
+			font-size:25px;
+		}
     #description h1,p, #about h1, #gallery h1, #contact h1{
     	text-align: center;
     }
     #about h1, #gallery h1, #contact h1{
     	font-size:80px;
     }
+    #description h1{
+    	font-size:60px;
+    }
+		#contact h2{
+			font-size:45px;
+		}
 
 }
 
@@ -277,5 +275,8 @@ padding:0;
     }
     .jumbotron {
     	min-height:100px;
+    }
+    #description h1{
+			font-size:30px;
     }
 }

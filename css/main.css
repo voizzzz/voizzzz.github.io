@@ -3,12 +3,7 @@
 	background:#09AF84;
 }
 body{
-	/*background-color: #edf2e1;*/
-	/*background-color:#fff;
-	background-image: url("http://www.transparenttextures.com/patterns/black-linen.png");
-*/
 background-color: #fffcfc;
-/*background-image: url("../img/whitey.png");*/
 margin:0;
 padding:0;
 }
@@ -22,11 +17,6 @@ padding:0;
 }
 /*---------------------Header Menu----------------------*/
 #nav1{
-/*	position:fixed;
-	width:100%;*/
-	/*background-color: #fff;*/
-	/*background-image: url("../img/45-degree-fabric-dark.png");*/
-	/*margin-bottom:3em;*/
 	margin-bottom: 0;
 	border-bottom:1px solid #ddd;
 	border-radius: 0;	
@@ -41,21 +31,14 @@ padding:0;
 }
 #menu li{
 	height:auto;
-	/*border-right:1px solid #555;*/
 }
 #menu > .active > a{
 		background:#09AF84;
-	/*background: rgba(44,44,44,0.7);*/
-	/*box-shadow: 0px 3px 0px #A84A00;*/
-	/*color:#A84A00;*/
-	/*text-shadow:1px 0px 0px #666;*/
 }
 #menu .active span{
-	/*color:#A84A00;*/
 	color:#fff;
 }
 #menu li a {
-	/*background:none;*/
 	font-family: 'Lusitana', Verdana, sans-serif;
 	font-size: 1.4em;
 	color:#888;
@@ -64,9 +47,7 @@ padding:0;
 
 }
 #menu li:hover a{
-	/*color:#B2A009;*/
 	color:#444;
-	/*background:#0AC997;*/
 }
 #menu li span{
 	padding-right:0.75em;
@@ -89,16 +70,12 @@ padding:0;
 .jumbotron{
 	padding:4% 0;
 	min-height:350px;
-	/*background-color: #b0a9a2;*/
-	/*background-color: #aaa;*/
-	background-image: url("../img/whitey.png");
-	background-image: url("http://www.transparenttextures.com/patterns/batthern.png");
+	background-image: url("../img/batthern.png");
 	border-bottom:1px solid rgba(0,0,0,0.1);
-		/*background:rgba(50,50,50,0.25);*/
 }
 .jumbotron h1{
 	text-align: center;
-	font-family:Yeseva One, Trebuchet, serif;
+	font-family:'Yeseva One', Trebuchet, serif;
 	font-size: 6em;
 	color:#145;
 	text-shadow:0px 1px 0px #888;	
@@ -118,9 +95,8 @@ padding:0;
 	min-height:900px;
 }
 #description{
-	font-family:Lusitana, Verdana, sans-serif;
+	font-family:'Lusitana', Verdana, sans-serif;
 	padding:0 5em;
-	/*margin-bottom:15em;*/
 	padding-top:3em;	
 	text-align: justify;
 	margin-bottom: 5em;
@@ -143,8 +119,6 @@ padding:0;
 	margin:0;
 	padding:0;
 	min-height:900px;
-	/*color:orangered;*/
-	/*background-color: #fffcfc;*/
 	padding:0 6%;
 	width:100%;
 
@@ -157,44 +131,29 @@ padding:0;
 	padding-top:100px;
 	margin-bottom: 0.7em;
 	margin-top:0;
-	/*text-shadow:2px 0px 0px #E8670C;*/
 	letter-spacing:7px;
-	/*margin-left:60px;*/
 
 }
 #about p{
 	font-family:'Nixie One', Verdana, sans-serif;
 	font-size:48px;
 	margin-bottom:50px;
-	/*margin-left:60px;*/
-
 }
 /*---------------------Gallery----------------------*/
 #gallery{
-	/*margin:0;*/
-	/*background-color: #fffcfc;*/
 	display:block;
-	background-image: url("../img/axiom-pattern.png");
 	background-color: #ffffff;
-background-image: url("http://www.transparenttextures.com/patterns/lined-paper-2.png");
-
+	background-image: url("../img/lined-paper-2.png");
 	min-height:900px;
 	padding:0 6%;
 }
 #gallery h1{
 	color:#09AF84;
-	/*text-shadow:1px 0px 0px #089571;*/
 }
-#gallery+div{
-	/*margin-bottom: 80px;*/
-}
-
 #gallery img{
-	/*width:400px;*/
-	/*border:1px solid #aaa;*/
 	margin-bottom:20px;
 	border:1px solid #aaa;
-	box-shadow:0px 0px 1px #09af84;
+	box-shadow:0px 0px 1px #bbb;
 }
 #gallery p{
 	text-align: center;
@@ -205,30 +164,15 @@ background-image: url("http://www.transparenttextures.com/patterns/lined-paper-2
 #gallery #soon{
 	font-size: 60px
 }
-/*#gallery > p:last-child{
-	font-size:50px;
-	margin-top:150px;
-}
-#gallery .no-img-yet{
-	
-}
-#gallery .no-img-yet img{
-	width:100%;
-	height:180px;
-	background-color:rgba(111,111,111,0.2);
-}*/
 /*--------------------Contact----------------------*/
-
 #contact{
 	min-height:850px;
-	/*background-color:rgba(0,0,0,0.1);*/
 	padding:0 6%;
 	font-family:'Lusitana', Verdana, sans-serif;
 	border-top: 1px solid #ccc;
 }
 #contact h1{
 	color:#09AF84;
-	/*text-shadow:0px 0px 0px #066F54;*/
 	margin-bottom:100px;
 }
 #contact h2{
@@ -264,6 +208,8 @@ background-image: url("http://www.transparenttextures.com/patterns/lined-paper-2
 	color:#09AF84;
 	font-style: underline;
 }
+/*-----------------Adding Media Rules-------------------*/
+
 @media screen and (max-width: 1200px) {
     #description{
     	text-align: left;
