@@ -162,7 +162,7 @@ padding:0;
 	color:#666;
 }
 #gallery #soon{
-	font-size: 2.5em;
+	font-size: 2em;
 }
 /*--------------------Contact----------------------*/
 #contact{
@@ -224,7 +224,10 @@ padding:0;
     	font-size:3.125em;
     }
     #description p{
-    	font-size:1.875em;
+    	font-size:2em;
+    }
+    #description{
+    	padding:1em;
     }
 }
 @media screen and (max-width: 768px) {
@@ -278,7 +281,9 @@ padding:0;
 		#contact h2{
 			font-size:2.188em;
 		}
-
+		#gallery #soon{
+			font-size: 1.5em;
+		}
 
 }
 
